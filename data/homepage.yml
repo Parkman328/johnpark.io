@@ -1,0 +1,187 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m John Park."
+  subtitle: "Software Engineer, PreSales Engineer, Father, Traveler, Foodie "
+  description: "I work at <a target='_blank' href='https://qlik.com/'>Qlik</a>, a Business Analytics Software Company in US currently living in Los Angeles."
+  image:
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Email"
+    email: '<a href="mailto:john@johnpark.io">john@johnpark.io</a>'
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/jpark328/"
+
+    - icon: "github"
+      URL: "https://github.com/parkman328"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/jpark328"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/parkman328/"
+
+    - icon: "facebook"
+      URL: "https://www.facebook.com/jpark328/"
+
+    - icon: "codepen"
+      URL: "https://codepen.io/parkman328"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">
+    I am Korean American, Traveler, Dad raising my two awesome kids and learning everyday.
+    I am a Software Engineer who worked in the enterprise Software Companies for past 14 years as a Developer, Consultant, Presales Engineer and Partner Solution Architect.
+    I have  traveled to over 20 countries and worked at some exciting places.
+    </p>
+    <p class="lead">
+    My area of work experience is in Analytics, ETL, Data Management(Governance and Catalog), AI/ML and Algorithms.
+    For fun I do some Front End Design, Mobile Design, Programming on Blockchain and and Algorithmic Trading Bots.
+    I enjoy designing and coding as much sharing my knowledge.
+    </p>'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "Resume"
+    URL: "https://resume.johpark.io"
+  image:
+    x: "./img/who-am-i/Profile_Original.png"
+    _2x: "img/who-am-i/Profile_Original.png"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Georgia Institute of Technology"
+      year: "1999-2004"
+      degree: "Bachelor of Applied Science (BASc), Computer Engineering"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Over 10+ years of experience working with Enterprises for Business Analytics, Data Warehouse, and Databases."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/jpark328/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+
+  items:
+    - title: "Sr. Front-End Developer"
+      company: "Qlik"
+      duration: "Feb 2011 - Sep 2019"
+
+    - title: "Solution Engineer"
+      company: "DataStax"
+      duration: "Apr 2010 - Jan 2011"
+
+    - title: "Sales Engineering Leader"
+      company: "Unifi Software"
+      duration: "Jun 2009 - Mar 2010"
+
+    - title: "Solution Engineer"
+      company: "Hortonworks"
+      duration: "Jun 2009 - Mar 2010"
+
+# Client & Work
+client_and_work:
+  title: "Past Projects"
+  enable: false
+  works:
+    - title: "Radity Finance - UI Kit"
+      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/radity-finance.jpg"
+        _2x: "img/works/radity-finance@2x.jpg"
+      is_even: true
+
+    - title: "Swiss Fintech Website"
+      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/swissfintech.jpg"
+        _2x: "img/works/swissfintech@2x.jpg"
+      is_even: false
+
+    - title: "Robo Advisor"
+      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/robo-advisor.jpg"
+        _2x: "img/works/robo-advisor@2x.jpg"
+      is_even: true
+
+# testimonial
+testimonial:
+  enable: false
+  title: "Past Presentations"
+  items:
+    - name: "Daniel Jordan"
+      position: "Phonet, CEO"
+      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+      image:
+        x: "img/testimonials/daniel-jordan.jpg"
+        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+
+    - name: "Jonathan Peters"
+      position: "Textic, CEO"
+      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+      image:
+        x: "img/testimonials/jonathan-peters.jpg"
+        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+
+    - name: "Antonio Willis"
+      position: "Cyberse, CEO"
+      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+      image:
+        x: "img/testimonials/antonio-willis.jpg"
+        _2x: "img/testimonials/antonio-willis@2x.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  email:
+    title: "Email"
+    email: '<a href="mailto:john@johnpark.io">john@johnpark.io</a>'
+  address:
+    title: "Location"
+    address: "Los Angeles Metropolitan Area"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: true
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
